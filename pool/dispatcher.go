@@ -14,7 +14,7 @@ type Collector struct {
 func StartDispatcher(workerCount int) Collector {
 	var i int
 	var workers []Worker
-	input := make(chan Work) // channel to recieve work
+	input := make(chan Work) // channel to receive work
 	end := make(chan bool)   // channel to spin down workers
 	collector := Collector{Work: input, End: end}
 
