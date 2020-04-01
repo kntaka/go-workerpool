@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/kntaka/go-workerpool/job"
-	"github.com/kntaka/go-workerpool/pool"
+	"github.com/knwoop/go-workerpool/job"
+	"github.com/knwoop/go-workerpool/pool"
 )
 
 func BenchmarkConcurrent(b *testing.B) {

@@ -3,7 +3,7 @@ package pool
 import (
 	"log"
 
-	"github.com/kntaka/go-workerpool/job"
+	"github.com/knwoop/go-workerpool/job"
 )
 
 type Work struct {
